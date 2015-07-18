@@ -1,0 +1,80 @@
+#about, #ed, #work, #projects{
+	/*background-color: #CC99FF;*/
+	font-family: Verdana, sans-serif;
+	color: #009999;
+	overflow: hidden;
+	margin-top: 5px;
+	padding: 10px;
+	border-bottom: 2px solid #3bd6c6;
+	width: 100%;
+	padding: 0px 0px 0px 0px;
+}
+
+#about {
+	margin-top: 100px;
+}
+#about img {
+	border-radius: 20px;
+	float: left;
+	padding: 5px;
+}
+h2 {
+	padding: 5px;
+	text-align: center;
+}
+p {
+	text-align: center;
+	margin: 10px;
+}
+#about_main {
+	width: 50%;
+	float: left;
+}
+
+#about_sidebar {
+	position: relative;
+	bottom: 50px;
+	padding-right: 10%;
+	float: right;
+}
+
+fieldset {
+	border: 1px solid #009999;
+	border-radius: 10px;
+}
+#projects fieldset p {
+	text-align: left;
+}
+legend {
+	background-color: #efefef;
+	border: 1px solid #009999;
+	border-radius: 10px;
+	padding: 5px;
+	text-transform: uppercase;
+}
+
+ul {
+	list-style-type: circle;
+}
+
+table {
+	padding: 10px;
+	margin: 10px;
+	text-align: left;
+}
+
+th {
+	border-top: 1px solid #009999;
+	border-bottom: 2px solid #009999;
+}
+
+th, td {
+	width: 450px;
+	height: 75px;
+}
+.rowHover:hover {
+	background-color: #c3e6e5;
+}
+.even {
+	background-color: #efefef;
+}

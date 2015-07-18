@@ -1,0 +1,84 @@
+#header {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 10;
+	background-color: #3bd6c6;
+	color: #fff9fe;
+	font-family: Verdana, sans-serif;
+	border: 1px outset #35C1B2;
+	height: 75px;
+	width: 100%;
+	margin: 0px;
+}
+#header h1 {
+	position: relative;
+	float: left;
+	padding-left: 10px;
+	font-size: 40px;
+}
+#nav {
+	margin-left: 50px;
+	position: relative;
+	top: 30px;
+	float: left;
+	font-size: 20px;
+}
+#nav ul li {
+	padding: 10px;
+	display: inline;
+	border-left: 1px solid #fff4e6;
+}
+a {
+	text-decoration: none;
+	color: #fff9fe;
+	font-family: Verdana, sans-serif;
+}
+a:hover {
+	color: #4C6680;
+}
+a:active {
+	color: #ffffff;
+}
+.contact {
+	position: relative;
+	top: 40px;
+	float: right;
+}
+#projects a {
+	color: #0066FF;
+}
+#projects a:hover, .contact a:hover {
+	text-decoration: underline;
+}
+#footer {
+	color: #fff9fe;
+	font-family: Verdana, sans-serif;
+	border: 1px outset #35C1B2;
+	height: 75px;
+	width: 100%;
+	background-color: #3bd6c6;
+	margin-top: 5px;
+}
+
+#footer ul {
+	text-align: center;
+}
+#footer ul li {
+	padding: 10px;
+	display: inline;
+}
+
+#footer img {
+	height: 40px;
+	width: 40px;
+	border-radius: 5px;
+}
+#footer h3 {
+	display: inline;
+}
+#footer .contact {
+	position: relative;
+	top: 0px;
+	float: none;
+}
