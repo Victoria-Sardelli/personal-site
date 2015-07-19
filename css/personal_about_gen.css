@@ -1,37 +1,46 @@
+html {
+	background-color: #9DEAE2;
+}
+body {
+	background-color: #ffffff;
+	margin-left: 5%;
+	margin-right: 5%;
+}
 #about, #ed, #work, #projects{
-	/*background-color: #CC99FF;*/
 	font-family: Verdana, sans-serif;
-	color: #009999;
+	color: #007A7A;
 	overflow: hidden;
-	margin-top: 5px;
-	padding: 10px;
-	border-bottom: 2px solid #3bd6c6;
-	width: 100%;
-	padding: 0px 0px 0px 0px;
+	padding: 1%;
+	border-bottom: 10px solid #9DEAE2;
 }
 
 #about {
-	margin-top: 100px;
+	margin-top: 5%;
 }
-#about img {
+#about img { 
 	border-radius: 20px;
 	float: left;
-	padding: 5px;
+	margin: 2%;
 }
 h2 {
-	padding: 5px;
+	padding-bottom: 3%;
 	text-align: center;
 }
 p {
 	text-align: center;
-	margin: 10px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+#about p {
+	padding-left: 25%;
 }
 #about_main {
 	width: 50%;
-	float: left;
+	display: inline-block;
 }
 
 #about_sidebar {
+	width: 30%;
 	position: relative;
 	bottom: 50px;
 	padding-right: 10%;
@@ -39,6 +48,7 @@ p {
 }
 
 fieldset {
+	margin: 1%;
 	border: 1px solid #009999;
 	border-radius: 10px;
 }
@@ -77,4 +87,15 @@ th, td {
 }
 .even {
 	background-color: #efefef;
+}
+#about fieldset {
+	background-color: #c3e6e5; 
+	border: 1px solid #9DEAE2;
+}
+#about th, td{
+	padding: 1%;
+	border-top: 1px solid #ffffff;
+	border-bottom: none;
+	width: 250px;
+	height: 35px;
 }
