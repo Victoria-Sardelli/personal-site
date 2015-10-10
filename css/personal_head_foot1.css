@@ -3,13 +3,15 @@
 	top: 0px;
 	left: 0px;
 	z-index: 10;
-	background-color: #35C1B2;
+	/*background-color: #35C1B2;*/
+	background-color: #412234;
 	color: #ffffff;
 	font-family: Verdana, sans-serif;
-	border: 1px solid #35C1B2;
+	/*border: 1px solid #35C1B2;*/
+	border: 1px solid #412234;
 	height: 75px;
-	width: 100%;
-	margin: 0px;
+	width: 80%;
+	margin-left: 10%;
 	overflow: hidden;
 }
 #header h1 {
@@ -34,7 +36,7 @@ a {
 	font-family: Verdana, sans-serif;
 }
 a:hover {
-	color: #4C6680;
+	color: #B49FCC;
 }
 a:active {
 	color: #ffffff;
@@ -53,14 +55,17 @@ a:active {
 #footer {
 	position: absolute;
 	left: 0px;
-	margin-top: 1%;
 	color: #ffffff;
 	font-family: Verdana, sans-serif;
-	border: 1px solid #35C1B2;
+	/*border: 1px solid #35C1B2;*/
+	background-color: #412234;
 	height: 75px;
-	width: 100%;
-	background-color: #35C1B2;
-	/*background-color: #3bd6c6;*/
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 1%;
+	/*background-color: #35C1B2;*/
+	border: 1px solid #412234;
+	
 }
 
 #footer ul {

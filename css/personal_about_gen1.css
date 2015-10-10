@@ -1,17 +1,18 @@
 html {
-	background-color: #9DEAE2;
+	/*background-color: #9DEAE2;*/
+	background-color: #EAD7D7;
 }
 body {
 	background-color: #ffffff;
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 #about, #ed, #work, #projects{
 	font-family: Verdana, sans-serif;
-	color: #007A7A;
+	color: #412234;
 	overflow: hidden;
 	padding: 1%;
-	border-bottom: 10px solid #9DEAE2;
+	border-bottom: 10px solid #EAD7D7;
 }
 
 #about {
@@ -49,15 +50,15 @@ p {
 
 fieldset {
 	margin: 1%;
-	border: 1px solid #009999;
+	border: 1px solid #9EA3B0;
 	border-radius: 10px;
 }
 #projects fieldset p {
 	text-align: left;
 }
 legend {
-	background-color: #efefef;
-	border: 1px solid #009999;
+	background-color: #ffffff;
+	border: 1px solid #9EA3B0;
 	border-radius: 10px;
 	padding: 5px;
 	text-transform: uppercase;
@@ -74,23 +75,23 @@ table {
 }
 
 th {
-	border-top: 1px solid #009999;
-	border-bottom: 2px solid #009999;
+	border-top: 1px solid #9EA3B0;
+	border-bottom: 2px solid #9EA3B0;
 }
 
 th, td {
-	width: 450px;
+	width: 350px;
 	height: 75px;
 }
 .rowHover:hover {
-	background-color: #c3e6e5;
+	background-color: #B49FCC;
 }
 .even {
 	background-color: #efefef;
 }
 #about fieldset {
-	background-color: #c3e6e5; 
-	border: 1px solid #9DEAE2;
+	background-color: #EAD7D7; 
+	border: 1px solid #EAD7D7;
 }
 #about th, td{
 	padding: 1%;
