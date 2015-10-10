@@ -1,2 +1,2 @@
 # personal-site
-Written with HTML and CSS
+This is my personal site, written with HTML and CSS
