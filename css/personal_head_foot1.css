@@ -8,8 +8,8 @@
 	font-family: Verdana, sans-serif;
 	border: 1px solid #412234;
 	height: 75px;
-	width: 80%;
-	margin-left: 10%;
+	width: 70%;
+	margin-left: 15%;
 	overflow: hidden;
 	padding-bottom: 7px;
 }
@@ -41,7 +41,7 @@ a:active {
 }
 .contact {
 	display: inline;
-	padding-left: 11%;
+	padding-left: 7.5%;
 }
 #projects a {
 	color: #0066FF;
@@ -57,8 +57,8 @@ a:active {
 	/*border: 1px solid #35C1B2;*/
 	background-color: #412234;
 	height: 75px;
-	width: 80%;
-	margin-left: 10%;
+	width: 70%;
+	margin-left: 15%;
 	margin-top: 1%;
 	/*background-color: #35C1B2;*/
 	border: 1px solid #412234;
